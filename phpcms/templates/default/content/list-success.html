@@ -1,0 +1,32 @@
+{template "content","header"}
+<link rel="stylesheet" href="{CSS_PATH}tysl/success.css">
+<!-- 关于公司 -->
+<div class="aboutusbox">
+    <div class="aboutus">
+        <div class="aboutusleft">
+             <ul class="gsln">
+             {pc:content action="category" catid="$parentid"  num="5" order="id DESC"}
+                {loop $data $v}
+                   <li><a href="{$v[url]}">{$v[catname]}</a></li>           
+                {/loop}
+             {/pc}
+            </ul>
+             <img src="{IMG_PATH}tysl/lxmm.jpg" alt="">
+        </div>
+        <div class="aboutusright">
+              <div class="righttt"><span>{$catname}</span>
+              <span  style="display:block;float:right;"><a href="{siteurl($siteid)}">首页</a><span> &gt;</span>{catpos($catid)}</span>
+              </div>
+              <!-- 显示内容 -->
+                     <ul class="cgal">  
+                       {pc:content action="lists" catid="$catid"  num="12" order="id DESC"  page="$page"}
+                       {loop $data $r}
+                          <li><a href="{$r[url]}">{$r[title]}</a></li>
+                       {/loop}
+                       {/pc}                                   
+                    </ul> 
+              <div id="pages" class="text-c">{$pages}</div>
+        </div>
+    </div>
+</div>
+{template "content","footer"}

@@ -1,0 +1,453 @@
+
+body{
+	background: url(../../images/tysl/top-bg.jpg) no-repeat center top;
+}
+/*logo和头*/
+.head{
+    width: 998px;
+    height:100px;
+    margin:0 auto;
+    background:red;
+}
+.bn{
+	width: 100%;
+	height: 340px;
+	background: url(../../images/tysl/bg.jpg) no-repeat center;
+}
+/* ------------------------------------------------------------ */
+.ngtionbox{
+	width: 998px;
+	height: 55px;
+	margin:0 auto;
+	background: url(../../images/tysl/ngtion.jpg) no-repeat center;
+}
+.ngtion{
+	width: 100%;
+	height: 100%;
+}
+.ngtion li{
+    width:118px;
+    height: auto;
+    border-left: 1px solid #032A49;
+    border-right:1px solid #1F5281;
+    float:left;
+    color:#fff;
+    font-size: 16px;
+    text-align:center;
+    margin-top:20px; 
+    font-weight: 4px;
+    font-family: 微软雅黑;
+    position: relative;
+}
+.ngtion .first{
+	border-left:0;
+}
+.ngtion .first a{
+	color:#fff;
+}
+.ngtion li .con{
+	width: 106px;
+	height: 47px;
+	border:1px solid #5BBBE3;
+	position: absolute;
+	left: 6px;
+	top: -12px;
+	display: none;
+}
+.ngtion li .con .bb{
+	width: 91px;
+	height: 10px;
+	position: absolute;
+	left: 7px;
+	top:-10px;
+}
+.ngtion li .con .bb img{
+	width: 91px;
+	height: 10px;
+}
+.ngtion li .con img{
+	width: 106px;
+	height: 47px;
+}
+.ngtion li .con .box{
+	width: 93px;
+	height:auto ;
+	background: #fff;
+	background-image:url(../../images/tysl/boxbg.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom;  
+	position: absolute;
+	right: 2px;
+	top:48px;
+	border:1px solid #B2C0D3;
+	padding-top:13px;
+	padding-bottom:13px; 
+	z-index: 999;
+}
+.ngtion li .con .box li{
+	height: 22px;
+	width: 100%;
+	/*background:#ffffff;*/
+	text-align: center;
+	font-size: 12px;
+	line-height: 22px;
+	margin:0;
+	border: 0;
+	color:#5E5E5E;
+}
+.ngtion li .con .box li:hover{
+	background: #E2E2E2;
+}
+/* ------------------------------------------------- */
+.banner{
+	width: 996px;
+	height: 262px;
+	margin:23px auto 0;
+	position: relative;
+}
+.banner .uls1{
+	width:165px;
+	height: 5px;
+	position:absolute;
+	left: 50%;
+	margin-left: -80px;
+	bottom:10px;  
+}
+.banner .uls1 li{
+	width: 28px;
+	height: 5px;
+	float: left;
+	background: #FF9012;
+	margin-right:5px;
+}
+.banner .uls1 .hot{
+	background: #fff;
+}
+
+/* -------------------------------------------------------- */
+.web{
+	width: 100%;
+	height: 54px;
+	margin:0 auto;
+	background: url(../../images/tysl/wel_bg.jpg) no-repeat center;
+}
+.webbox{
+	width: 996px;
+	height: 54px;
+	margin:0 auto;
+}
+
+/* ----------------------------------------------------- */
+.jcsj{
+	width: 100%;
+	height: 239px;
+	background: url(../../images/tysl/bg1.jpg) no-repeat top;
+	position: relative;
+}
+.movebox{
+	width: 996px;
+	height: 239px;
+	margin: 0 auto;
+	padding-top: 5px;
+	position: relative;
+}
+.moveboxtop{
+	width: 996px;
+	height:54px;
+}
+.moveboxtop .llogo{
+	width: 207px;
+	height: 54px;
+	float: left;
+}
+.moveboxtop span{
+	width: 54px;
+    height: 54px;
+    line-height: 59px;
+    float: left;
+    text-align: center;
+    font-size:14px;
+}
+.moveboxtop span a{
+	color:#4393CF;
+}
+.line{
+	width: 660px;
+	border-bottom: 1px solid #FFF;
+	border-top:1px solid #C8C8C8;
+	float:left;
+	margin-top: 30px;
+}
+.btnl,.btnr{
+	width: 20px;
+	height: 20px;
+	float: right;
+	background:rgba(0,0,0,0.4);
+	border-radius:50%;
+	margin-top:20px; 
+	margin-right: 10px;
+	position: relative;
+}
+.btnl img{
+	width: 14px;
+	height: 18px;
+	position: absolute;
+	top:1px;
+	right:5px;  
+}
+.btnr img{
+	width: 14px;
+	height: 18px;
+	position: absolute;
+	left:5px;
+	top:1px; 
+}
+.win{
+	width: 996px;
+	height: 162px;
+	position: relative;
+	overflow: hidden;
+}
+.win .imm{
+	width: 1970px;
+	height: 162px;
+    margin-left:20px;
+    position: absolute;
+	top:0;
+	left: 0
+}
+.win .imm li{
+    width: 152px;
+    height: 152px;
+    border:5px solid #CFD2D7;
+    float:left;
+    margin-right: 35px;
+    border-radius:10px; 
+}
+/*------------------------------------------------------------*/
+.contentbox{
+	width: 100%;
+	height: 634px;
+	background: url(../../images/tysl/bg11.jpg) center no-repeat;
+}
+.content{
+	width: 1000px;
+	height: 608px;
+	border:1px solid #CFD2D7;
+	margin:0 auto ;
+	background: #fff;
+	position: relative;
+}
+.contentleft{
+	width: 374px;
+	height: auto;
+	float: left;
+	border-right:1px solid #CFD2D7;
+}
+.contentleftt{
+	width: 359px;
+	height: 260px;
+	border-bottom: 1px solid #CFD2D7;
+    margin-left:15px;
+    margin-top: 19px;
+    font-size: 13px;
+    color:#646464;
+}
+.contentleftt p{
+	margin-top: 15px;
+	line-height: 20px;
+	text-indent: 2em;
+}
+.contentleftt p a{
+	color:blue;
+}
+.contentleftm{
+	width: 359px;
+	height: 172px;
+	border-bottom: 1px solid #CFD2D7;
+	margin-left:15px;
+}
+.contentleftb{
+    width: 359px;
+	height: 43px;
+	margin-left:15px;
+	position: relative;
+}
+.contentleftb .knowm{
+	width: 134px;
+	height: 31px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.contentmid{
+	width: 350px;
+	height:auto;
+	border-right: 1px solid #CFD2D7;
+	float: left;
+}
+.contentmidt{
+	width: 335px;
+	height: 121px;
+	border-bottom: 1px solid #CFD2D7;
+	margin-top: 19px;
+	margin-left:15px;
+}
+.fff{
+	width: 77px;
+	height: 62px;
+	float: left;
+	margin-right:5px;
+}
+.contentmidt p{
+	color:#646464;
+    font-size:12px;
+    line-height:20px;
+    display:block;
+}
+.contentmidt p span{
+	display: block;
+	float:left;
+	letter-spacing: -1px;
+}
+.contentmidt p a{
+	color:blue;
+	float: right;
+	margin-right: 5px;
+}
+.aaa{
+	width:335px;
+	height: 168px;
+    margin-left: 15px;
+}
+.aaa .aaat li{
+	list-style-type:disc;
+	font-size: 13px;
+	margin-left: 15px;
+    margin-top: 10px;
+}
+.bbb{
+	width: 350px;
+	height: 26px;
+	border-bottom: 1px solid #CFD2D7;
+	border-top: 1px solid #CFD2D7;
+}
+.contentmidbot{
+	width:350px; 
+}
+.kkk{
+	width: 335px;
+	margin-left:15px;
+
+}
+.kkk li{
+	width:105px;
+	height:13px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom:10px;
+	font-size: 12px;
+}
+.kkk li img{
+	float: left;
+	margin-top: 1px;
+	margin-right: 10px;
+}
+.mm{
+	width: 57px;
+	height: 37px;
+	float: right;
+	margin-right: 30px;
+}
+.contentright{
+	width: 274px;
+	height: 581px;
+	float: left;
+	position: relative;
+}
+.imfg{
+	width: 220px;
+	height: 90px;
+	margin-left: 21px;
+	background: blue;
+	position: relative;
+	overflow: hidden;
+}
+.imfg .lbd{
+	width:34px;
+	height: 12px;
+	position: absolute;
+	right:10px;
+	bottom: 5px;	
+}
+.imfg .lbd li{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
+	margin-right: 5px;
+	float: left;
+	text-align:center;
+	line-height: 10px;
+	color: #fff;
+	font-size: 9px;
+	background: blue;
+}
+.imfg .immk{
+	width: 440px;
+	height: 90px;
+	position: absolute;
+	left: 0;
+	top:0;	
+}
+.imfg .immk img{
+	float: left;
+}
+.contentright p{
+	width: 220px;
+	height: 90px;
+	margin-left: 21px;
+	text-indent: 2em;
+	font-size: 13px;
+	color:#646464;
+	line-height:20px;
+	margin-top:10px;
+}
+.lxmm{
+	width: 274px;
+	height: 260px;
+    position: absolute;
+    left: 0;
+    bottom:7px;
+}
+.bottom{
+	width: 1000px;
+	height: 27px;
+	position: absolute;
+	left: 0;
+	bottom:0;
+}
+/* --------------------------------------------------- */
+/*版权信息*/
+.liner{
+	width:1349px;
+	border-bottom:1px solid #fff;
+	border-top:1px solid #646464;
+	margin:0 auto;  
+}
+.banquan{
+	width: 1349px;
+	height: 110px;
+	margin:0 auto;
+	background: url(../../images/tysl/bg1.jpg) no-repeat bottom;
+	position: relative;
+}
+.imbq{
+	width: 1002px;
+	height: 98px;
+	margin:0 auto;
+}
+.gif{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}

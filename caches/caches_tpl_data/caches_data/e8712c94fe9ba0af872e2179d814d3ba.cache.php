@@ -1,0 +1,37 @@
+<?php
+return array (
+  32 => 
+  array (
+    'catid' => '32',
+    'siteid' => '1',
+    'type' => '0',
+    'modelid' => '1',
+    'parentid' => '14',
+    'arrparentid' => '0,14',
+    'child' => '0',
+    'arrchildid' => '32',
+    'catname' => '基地风采',
+    'style' => '',
+    'image' => '',
+    'description' => '',
+    'parentdir' => 'mien/',
+    'catdir' => 'sdd',
+    'url' => 'http://localhost/tysl/index.php?m=content&c=index&a=lists&catid=32',
+    'items' => '8',
+    'hits' => '0',
+    'setting' => '{"workflowid":"","ishtml":"0","content_ishtml":"0","create_to_html_root":"0","template_list":"default","category_template":"category -jdfc","list_template":"list -servive","show_template":"show","meta_title":"","meta_keywords":"","meta_description":"","presentpoint":"1","defaultchargepoint":"0","paytype":"0","repeatchargedays":"1","category_ruleid":"6","show_ruleid":"16"}',
+    'listorder' => '32',
+    'ismenu' => '1',
+    'sethtml' => '0',
+    'letter' => 'jidifengcai',
+    'usable_type' => '',
+    'create_to_html_root' => '0',
+    'ishtml' => '0',
+    'content_ishtml' => '0',
+    'category_ruleid' => '6',
+    'show_ruleid' => '16',
+    'workflowid' => '',
+    'isdomain' => '0',
+  ),
+);
+?>

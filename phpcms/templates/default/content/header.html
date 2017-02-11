@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公司简介-太原市晟浪博通企业管理咨询有限公司</title>
+  <link rel="stylesheet" href="{CSS_PATH}tysl/base.css"> 
+  <link rel="stylesheet" href="{CSS_PATH}tysl/index.css">
+    <script src="{JS_PATH}tysl/animate.js"></script>
+    <script src="{JS_PATH}tysl/function.js"></script>
+    <script src="{JS_PATH}tysl/jquery.js"></script>
+    <script src="{JS_PATH}tysl/index.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+<div class="head">
+   <img src="{IMG_PATH}tysl/head.jpg" alt="">
+</div>
+<!-- banner -->
+<div class="bn">
+    <div class="ngtionbox">
+        <ul class="ngtion">
+            <li class="first"><a href="{siteurl($siteid)}">首页</a></li>
+            {pc:content action="category" catid="0" num="25" order="views  DESC"} 
+               {loop $data $r}
+                  <li class="dh">{$r[catname]} 
+                       <div class="con">
+                       <div class="bb"></div>
+                       <ul class="box">
+                           {pc:content action="category" catid="$r[catid]"    siteid="$siteid" num="25" order="views  DESC"} 
+                               {loop $data $v}
+                                   <li><a href="{$v[url]}">{$v[catname]}</a></li>
+                               {/loop}           
+                           {/pc}
+                       </ul>
+                       <a href="{$r[url]}"><img src="{$r[image]}" alt=""></a>
+                       </div>  
+                 </li>                  
+               {/loop}           
+            {/pc}      
+        </ul>
+    </div>
+    <div class="banner">
+       <img src="{IMG_PATH}tysl/bn1.jpg" alt="">
+       <ul class="uls1">
+           <li class="hot"></li>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ul>
+    </div>
+</div>  
+<!-- 欢迎进入本站 -->
+<div class="web">
+    <div class="webbox"><img src="{IMG_PATH}tysl/web.jpg" alt=""></div>
+</div>

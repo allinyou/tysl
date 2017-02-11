@@ -1,0 +1,156 @@
+{template "content","header"}
+
+<!-- 精彩瞬间 -->
+<div class="jcsj">
+    <div class="movebox">
+        <div class="moveboxtop">
+            <div class="llogo">
+               <img src="{IMG_PATH}tysl/jcsj.jpg" alt=""> 
+            </div>
+            {pc:content action="category" catid="0" order="listorder DESC" num="25"}
+            {loop $data $r}
+            {if $r[catid]==10}
+            <span><a href="{$r[url]}">+MORE</a></span>
+            {/if}
+            {/loop}
+            {/pc}
+            <div class="line"></div>
+            <div class="btnr"><img src="{IMG_PATH}tysl/djright.png" alt=""></div>
+            <div class="btnl"><img src="{IMG_PATH}tysl/djleft.png" alt=""></div>
+        </div>
+        <div class="win">
+          {pc:content action="position" posid="12" order="listorder DESC" num="25"}
+                 {loop $data $r}
+            <a href="{$r[url]}">
+            <ul class="imm">
+                <li><img src="{IMG_PATH}tysl/jj1.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj2.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj3.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj4.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj5.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj6.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj7.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj8.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj9.jpg" alt=""></li>
+                <li><img src="{IMG_PATH}tysl/jj10.jpg" alt=""></li> 
+            </ul>
+            </a>
+            {/loop}
+            {/pc}
+        </div>
+    </div>
+</div>
+<!--内容栏-->
+<div class="contentbox">
+   <div class="content">
+       <div class="contentleft">
+            <div class="contentleftt">
+                <img src="{IMG_PATH}tysl/gywm.jpg" alt="">
+                <p>太原市晟琅博通企业管理咨询有限公司是国内第一批专业从事户外体验式培训的机构，是目前国内最优秀的拓展培训公司之一。致力于为国内外企业提供具有现代管理观念与技能的拓展培训课程。从业十余年，培训过的企业...<span>
+                {pc:content action="position" posid="1" order="listorder DESC" num="25"}
+                 {loop $data $r}
+                <a href="{$r[url]}">[MORE]</a>
+                {/loop}
+               {/pc} 
+                </span></p>
+
+            </div>
+            <div class="contentleftm">
+                <img src="{IMG_PATH}tysl/fwnr1.jpg" alt="">
+            </div>
+            <div class="contentleftb">
+               <div class="knowm">
+                   {pc:content action="category" catid="0" order="listorder DESC" num="25"}
+                   {loop $data $r}
+                   {if $r[catid]==11}
+                   <a href="{$r[url]}"><img src="{IMG_PATH}tysl/knowm.jpg" alt=""></a>
+                   {/if}
+                   {/loop}
+                   {/pc}
+               </div>
+            </div>
+       </div>
+       <div class="contentmid">
+           <div class="contentmidt">
+                <img src="{IMG_PATH}tysl/cgal1.jpg" alt="">
+                <div class="fff">
+                    <img src="{IMG_PATH}tysl/fff.jpg" alt="">
+                </div>
+                <p><span>2016年4月亚宝药业腾格里沙漠</span>
+                {pc:content action="position" posid="9" order="listorder DESC" num="25"}
+                 {loop $data $r}
+                <a href="{$r[url]}">[MORE]</a>
+                {/loop}
+               {/pc} 
+                2014年4月13-15日，由晟琅博通拓展培训机构承办的亚宝药业精英...</p>
+           </div>
+           <div class="aaa">
+               <ul class="aaat">
+               {pc:content action="position" posid="18" order="listorder DESC" num="25"}
+                 {loop $data $r}
+                   <li><a href="{$r[url]}">{$r[title]}</a>
+                   </li>
+                 {/loop}
+               {/pc}                 
+               </ul>
+           </div>
+           <div class="bbb">
+           {pc:content action="category" catid="0" order="listorder DESC" num="25"}
+            {loop $data $r}
+            {if $r[catid]==10}
+               <a href="{$r[url]}">
+                   <img src="{IMG_PATH}tysl/jjj.jpg" alt="">
+               </a>
+            {/if}
+            {/loop}
+            {/pc}
+           </div>
+           <div class="contentmidbot">
+               <img src="{IMG_PATH}tysl/tjkc.jpg" alt="">
+               <ul class="kkk">
+               {pc:content action="position" posid="2" order="listorder DESC" num="25"}
+                 {loop $data $r}
+                   <li>
+                       <img src="{IMG_PATH}tysl/xjt.jpg" alt="">
+                       <a href="{$r[url]}">{$r[title]}
+                       </a>
+                   </li>
+                 {/loop}
+               {/pc}    
+               </ul>
+               <div class="mm">
+                {pc:content action="category" catid="0" order="listorder  DESC" num="25"}
+                {loop $data $r}
+                 {if $r[catid]==12}
+                   <a href="{$r[url]}">
+                       <img src="{IMG_PATH}tysl/mm.jpg" alt="">
+                   </a>
+                   {/if}
+                   {/loop}
+                   {/pc}
+               </div>
+           </div>
+       </div>
+       <div class="contentright">
+           <img src="{IMG_PATH}tysl/jdfc1.jpg" alt="">
+           <div class="imfg">
+              <div class="immk">
+                  <img src="{IMG_PATH}tysl/fc1.jpg" alt="">
+                  <img src="{IMG_PATH}tysl/fc2.jpg" alt="">
+              </div>
+              <ul class="lbd">
+                  <li>1</li>
+                  <li>2</li>
+              </ul>
+           </div>
+           <p>太原市国防教育训练中心位于太原市尖草坪区拥军路1号。占地15000平米，东临汾河，西依崛围山景区。是山西省规模最大，项目最全的军事训练基地。三星级标准建造的住宿、餐饮、教学、会议... </p>
+           <div class="lxmm"> 
+               <img src="{IMG_PATH}tysl/lxmm.jpg" alt="">
+           </div>
+       </div>
+       <div class="bottom">
+           <img src="{IMG_PATH}tysl/bottom.jpg" alt="">
+       </div>
+   </div>
+</div>
+{template "content","footer"}
